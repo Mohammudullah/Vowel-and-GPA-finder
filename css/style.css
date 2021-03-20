@@ -1,0 +1,118 @@
+* {
+    margin: 0px;
+    padding: 0;
+}
+ul, ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+#black_color {
+    background: #303030 no-repeat center/cover;
+}
+.container {
+    margin: 0 auto;
+    width: 1170px;
+    height: 500px;
+    background: #685757 no-repeat center/cover;
+}
+h2 {
+    color: #FFFFFF;
+    font: 700 68px/80px 'Raleway', sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 0px 0 21px 0;
+    padding-top: 16px;
+}
+p {
+    color: #FFFFFF;
+    font: 400 25px/30px 'Raleway', sans-serif;
+    text-align: center;
+}
+.input_item {
+    display: flex;
+    justify-content: center;
+    margin-top: 46px;
+}
+#letter_txt {
+    width: 152px;
+    height: 69px;
+    font: 400 40px/30px 'Raleway', sans-serif;
+    color: #685757;
+    outline: none;
+    border-radius: 5px;
+    border: 0;
+    box-sizing: border-box;
+    text-align: center;
+    margin-right: 14px;
+}
+.search_bttn {
+    width: 71px;
+    height: 69px;
+    background: #2BC45E;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+.search_bttn:hover {
+    background: #0ebe49;
+}
+#v_c {
+    width: 638px;
+    height: 65px;
+    outline: none;
+    border: 0;
+    font: 600 50px/30px 'Raleway', sans-serif;
+    color: #0ebe49;
+    text-align: center;
+    background: #FFFFFF;
+}
+.output_item {
+    text-align: center;
+    margin-top: 46px;
+
+}
+#stwo {
+    margin-top: 62px !important;
+}
+.grade_input {
+    text-align: center;
+    margin-top: 43px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+input[type=number] {
+    width: 146px;
+    height: 58px;
+    border-radius: 5px;
+    font: 400 40px/30px 'Raleway', sans-serif;
+    outline: none;
+    border: 0;
+    text-align: center;
+    -moz-appearance: textfield;
+}
+.gpa_button {
+    width: 305px;
+    height: 103px;
+    border-radius: 8px;
+    border: 0;
+    background: #2BC45E;
+    font: 700 68px/80px 'Raleway', sans-serif;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 29px;
+    text-align: center;
+    outline: none;
+}
+.gpa_button:hover {
+    background: #0ebe49;
+}
